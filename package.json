@@ -1,0 +1,14 @@
+{
+  "name": "mental-health-adv",
+  "version": "1.0.0",
+  "description": "Mental Health Adventure App",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "cd client && npm install && npm run build && cd ../server && npm install",
+    "install": "cd server && npm i && cd ../client && npm i"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
